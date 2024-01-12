@@ -67,7 +67,7 @@ def exec_cmd(key_val):
         print(key_val)
         print("no cmd")
         
-    try:
+try:
     init()
     while True:
         if GPIO.input(PIN) == 0:
